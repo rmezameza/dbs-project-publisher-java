@@ -1,0 +1,2575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Oracle - @oracle-lab.cs.univie.ac.at">
+  <database-model serializer="dbm" dbms="ORACLE" family-id="ORACLE" format-version="4.32">
+    <root id="1">
+      <IntrospectionLevel>3</IntrospectionLevel>
+      <ServerVersion>12.2.0.1.0</ServerVersion>
+      <TablespacesHash>23420661385</TablespacesHash>
+    </root>
+    <schema id="2" parent="1" name="A00271474">
+      <ObjectId>1095</ObjectId>
+    </schema>
+    <schema id="3" parent="1" name="A00425980">
+      <ObjectId>1068</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="A00642137">
+      <ObjectId>1192</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="A00751062">
+      <ObjectId>1009</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="A01060448">
+      <ObjectId>1066</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="A01100881">
+      <ObjectId>1011</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="A01106684">
+      <ObjectId>1012</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="A01128598">
+      <ObjectId>1051</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="A01163259">
+      <ObjectId>1010</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="A01209070">
+      <ObjectId>1014</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="A01221639">
+      <ObjectId>1169</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="A01248048">
+      <ObjectId>1015</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="A01249291">
+      <ObjectId>1013</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="A01267552">
+      <ObjectId>1016</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="A01304148">
+      <ObjectId>1018</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="A01309472">
+      <ObjectId>1017</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="A01313931">
+      <ObjectId>1029</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="A01316906">
+      <ObjectId>1008</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="A01348366">
+      <ObjectId>1019</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="A01353302">
+      <ObjectId>1154</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="A01401330">
+      <ObjectId>1020</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="A01403100">
+      <ObjectId>1022</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="A01409428">
+      <ObjectId>1021</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="A01447962">
+      <ObjectId>1023</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="A01451886">
+      <ObjectId>1036</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="A01504657">
+      <ObjectId>1024</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="A01505558">
+      <ObjectId>1025</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="A01505625">
+      <ObjectId>1031</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="A01506257">
+      <ObjectId>1032</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="A01506390">
+      <ObjectId>1026</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="A01507569">
+      <ObjectId>1027</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="A01526271">
+      <ObjectId>1041</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="A01546715">
+      <ObjectId>1030</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="A01547085">
+      <ObjectId>1028</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="A01553951">
+      <ObjectId>1138</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="A01576693">
+      <ObjectId>1034</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="A01603273">
+      <ObjectId>1038</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="A01607705">
+      <ObjectId>1097</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="A01609000">
+      <ObjectId>1088</ObjectId>
+    </schema>
+    <schema id="41" parent="1" name="A01609716">
+      <ObjectId>1037</ObjectId>
+    </schema>
+    <schema id="42" parent="1" name="A01611624">
+      <ObjectId>1162</ObjectId>
+    </schema>
+    <schema id="43" parent="1" name="A01615621">
+      <ObjectId>1054</ObjectId>
+    </schema>
+    <schema id="44" parent="1" name="A01622238">
+      <ObjectId>1082</ObjectId>
+    </schema>
+    <schema id="45" parent="1" name="A01627191">
+      <ObjectId>1039</ObjectId>
+    </schema>
+    <schema id="46" parent="1" name="A01628468">
+      <ObjectId>1040</ObjectId>
+    </schema>
+    <schema id="47" parent="1" name="A01629356">
+      <ObjectId>1191</ObjectId>
+    </schema>
+    <schema id="48" parent="1" name="A01630070">
+      <ObjectId>1055</ObjectId>
+    </schema>
+    <schema id="49" parent="1" name="A01630647">
+      <ObjectId>1035</ObjectId>
+    </schema>
+    <schema id="50" parent="1" name="A01650535">
+      <ObjectId>1047</ObjectId>
+    </schema>
+    <schema id="51" parent="1" name="A01650557">
+      <ObjectId>1059</ObjectId>
+    </schema>
+    <schema id="52" parent="1" name="A01651375">
+      <ObjectId>1042</ObjectId>
+    </schema>
+    <schema id="53" parent="1" name="A01653455">
+      <ObjectId>1044</ObjectId>
+    </schema>
+    <schema id="54" parent="1" name="A11709035">
+      <ObjectId>1045</ObjectId>
+    </schema>
+    <schema id="55" parent="1" name="A11710366">
+      <ObjectId>1122</ObjectId>
+    </schema>
+    <schema id="56" parent="1" name="A11710941">
+      <ObjectId>1046</ObjectId>
+    </schema>
+    <schema id="57" parent="1" name="A11713948">
+      <ObjectId>1070</ObjectId>
+    </schema>
+    <schema id="58" parent="1" name="A11721895">
+      <ObjectId>1057</ObjectId>
+    </schema>
+    <schema id="59" parent="1" name="A11723687">
+      <ObjectId>1048</ObjectId>
+    </schema>
+    <schema id="60" parent="1" name="A11724101">
+      <ObjectId>1049</ObjectId>
+    </schema>
+    <schema id="61" parent="1" name="A11724629">
+      <ObjectId>1050</ObjectId>
+    </schema>
+    <schema id="62" parent="1" name="A11725407">
+      <ObjectId>1052</ObjectId>
+    </schema>
+    <schema id="63" parent="1" name="A11726884">
+      <ObjectId>1053</ObjectId>
+    </schema>
+    <schema id="64" parent="1" name="A11731075">
+      <ObjectId>1056</ObjectId>
+    </schema>
+    <schema id="65" parent="1" name="A11739260">
+      <ObjectId>1060</ObjectId>
+    </schema>
+    <schema id="66" parent="1" name="A11740534">
+      <ObjectId>1067</ObjectId>
+    </schema>
+    <schema id="67" parent="1" name="A11742709">
+      <ObjectId>1058</ObjectId>
+    </schema>
+    <schema id="68" parent="1" name="A11743919">
+      <ObjectId>1197</ObjectId>
+    </schema>
+    <schema id="69" parent="1" name="A11774101">
+      <ObjectId>1043</ObjectId>
+    </schema>
+    <schema id="70" parent="1" name="A11805838">
+      <ObjectId>1135</ObjectId>
+    </schema>
+    <schema id="71" parent="1" name="A11807095">
+      <ObjectId>1061</ObjectId>
+    </schema>
+    <schema id="72" parent="1" name="A11807146">
+      <ObjectId>1065</ObjectId>
+    </schema>
+    <schema id="73" parent="1" name="A11807147">
+      <ObjectId>1062</ObjectId>
+    </schema>
+    <schema id="74" parent="1" name="A11807152">
+      <ObjectId>1063</ObjectId>
+    </schema>
+    <schema id="75" parent="1" name="A11807201">
+      <ObjectId>1064</ObjectId>
+    </schema>
+    <schema id="76" parent="1" name="A11809613">
+      <ObjectId>1117</ObjectId>
+    </schema>
+    <schema id="77" parent="1" name="A11810643">
+      <ObjectId>1069</ObjectId>
+    </schema>
+    <schema id="78" parent="1" name="A11812335">
+      <ObjectId>1115</ObjectId>
+    </schema>
+    <schema id="79" parent="1" name="A11812925">
+      <ObjectId>1089</ObjectId>
+    </schema>
+    <schema id="80" parent="1" name="A11816259">
+      <ObjectId>1102</ObjectId>
+    </schema>
+    <schema id="81" parent="1" name="A11817359">
+      <ObjectId>1071</ObjectId>
+    </schema>
+    <schema id="82" parent="1" name="A11819986">
+      <ObjectId>1178</ObjectId>
+    </schema>
+    <schema id="83" parent="1" name="A11826545">
+      <ObjectId>1072</ObjectId>
+    </schema>
+    <schema id="84" parent="1" name="A11826575">
+      <ObjectId>1073</ObjectId>
+    </schema>
+    <schema id="85" parent="1" name="A11827630">
+      <ObjectId>1074</ObjectId>
+    </schema>
+    <schema id="86" parent="1" name="A11827883">
+      <ObjectId>1075</ObjectId>
+    </schema>
+    <schema id="87" parent="1" name="A11827969">
+      <ObjectId>1076</ObjectId>
+    </schema>
+    <schema id="88" parent="1" name="A11829201">
+      <ObjectId>1077</ObjectId>
+    </schema>
+    <schema id="89" parent="1" name="A11829703">
+      <ObjectId>1078</ObjectId>
+    </schema>
+    <schema id="90" parent="1" name="A11831581">
+      <ObjectId>1079</ObjectId>
+    </schema>
+    <schema id="91" parent="1" name="A11832868">
+      <ObjectId>1080</ObjectId>
+    </schema>
+    <schema id="92" parent="1" name="A11832930">
+      <ObjectId>1081</ObjectId>
+    </schema>
+    <schema id="93" parent="1" name="A11833303">
+      <ObjectId>1083</ObjectId>
+    </schema>
+    <schema id="94" parent="1" name="A11833308">
+      <ObjectId>1084</ObjectId>
+    </schema>
+    <schema id="95" parent="1" name="A11833442">
+      <ObjectId>1085</ObjectId>
+    </schema>
+    <schema id="96" parent="1" name="A11833472">
+      <ObjectId>1086</ObjectId>
+    </schema>
+    <schema id="97" parent="1" name="A11833512">
+      <ObjectId>1087</ObjectId>
+    </schema>
+    <schema id="98" parent="1" name="A11840533">
+      <ObjectId>1128</ObjectId>
+    </schema>
+    <schema id="99" parent="1" name="A11840557">
+      <ObjectId>1159</ObjectId>
+    </schema>
+    <schema id="100" parent="1" name="A11846126">
+      <ObjectId>1091</ObjectId>
+    </schema>
+    <schema id="101" parent="1" name="A11847329">
+      <ObjectId>1092</ObjectId>
+    </schema>
+    <schema id="102" parent="1" name="A11847663">
+      <ObjectId>1093</ObjectId>
+    </schema>
+    <schema id="103" parent="1" name="A11847943">
+      <ObjectId>1094</ObjectId>
+    </schema>
+    <schema id="104" parent="1" name="A11848674">
+      <CreatedTimestamp>2021-11-03.02:08:10</CreatedTimestamp>
+      <Current>1</Current>
+      <IntrospectionL1Timestamp>2022-01-18.12:13:38</IntrospectionL1Timestamp>
+      <IntrospectionL2Timestamp>2022-01-18.12:13:38</IntrospectionL2Timestamp>
+      <IntrospectionL3Timestamp>2022-01-18.12:13:38</IntrospectionL3Timestamp>
+      <IntrospectionVersion>200820</IntrospectionVersion>
+      <ModifiedTimestamp>2022-01-18.03:18:50</ModifiedTimestamp>
+      <ObjectId>1096</ObjectId>
+    </schema>
+    <schema id="105" parent="1" name="A11848989">
+      <ObjectId>1090</ObjectId>
+    </schema>
+    <schema id="106" parent="1" name="A11849010">
+      <ObjectId>1098</ObjectId>
+    </schema>
+    <schema id="107" parent="1" name="A11905971">
+      <ObjectId>1100</ObjectId>
+    </schema>
+    <schema id="108" parent="1" name="A11910874">
+      <ObjectId>1101</ObjectId>
+    </schema>
+    <schema id="109" parent="1" name="A11911280">
+      <ObjectId>1108</ObjectId>
+    </schema>
+    <schema id="110" parent="1" name="A11911281">
+      <ObjectId>1105</ObjectId>
+    </schema>
+    <schema id="111" parent="1" name="A11911289">
+      <ObjectId>1106</ObjectId>
+    </schema>
+    <schema id="112" parent="1" name="A11911303">
+      <ObjectId>1107</ObjectId>
+    </schema>
+    <schema id="113" parent="1" name="A11911331">
+      <ObjectId>1103</ObjectId>
+    </schema>
+    <schema id="114" parent="1" name="A11911349">
+      <ObjectId>1110</ObjectId>
+    </schema>
+    <schema id="115" parent="1" name="A11911350">
+      <ObjectId>1114</ObjectId>
+    </schema>
+    <schema id="116" parent="1" name="A11911353">
+      <ObjectId>1109</ObjectId>
+    </schema>
+    <schema id="117" parent="1" name="A11911354">
+      <ObjectId>1113</ObjectId>
+    </schema>
+    <schema id="118" parent="1" name="A11911413">
+      <ObjectId>1112</ObjectId>
+    </schema>
+    <schema id="119" parent="1" name="A11911425">
+      <ObjectId>1111</ObjectId>
+    </schema>
+    <schema id="120" parent="1" name="A11911466">
+      <ObjectId>1116</ObjectId>
+    </schema>
+    <schema id="121" parent="1" name="A11911474">
+      <ObjectId>1118</ObjectId>
+    </schema>
+    <schema id="122" parent="1" name="A11911897">
+      <ObjectId>1119</ObjectId>
+    </schema>
+    <schema id="123" parent="1" name="A11914912">
+      <ObjectId>1120</ObjectId>
+    </schema>
+    <schema id="124" parent="1" name="A11916925">
+      <ObjectId>1121</ObjectId>
+    </schema>
+    <schema id="125" parent="1" name="A11919391">
+      <ObjectId>1123</ObjectId>
+    </schema>
+    <schema id="126" parent="1" name="A11920187">
+      <ObjectId>1124</ObjectId>
+    </schema>
+    <schema id="127" parent="1" name="A11921889">
+      <ObjectId>1126</ObjectId>
+    </schema>
+    <schema id="128" parent="1" name="A11922002">
+      <ObjectId>1099</ObjectId>
+    </schema>
+    <schema id="129" parent="1" name="A11922120">
+      <ObjectId>1132</ObjectId>
+    </schema>
+    <schema id="130" parent="1" name="A11922927">
+      <ObjectId>1125</ObjectId>
+    </schema>
+    <schema id="131" parent="1" name="A11923951">
+      <ObjectId>1127</ObjectId>
+    </schema>
+    <schema id="132" parent="1" name="A11926105">
+      <ObjectId>1143</ObjectId>
+    </schema>
+    <schema id="133" parent="1" name="A11926717">
+      <ObjectId>1129</ObjectId>
+    </schema>
+    <schema id="134" parent="1" name="A11927288">
+      <ObjectId>1130</ObjectId>
+    </schema>
+    <schema id="135" parent="1" name="A11928625">
+      <ObjectId>1131</ObjectId>
+    </schema>
+    <schema id="136" parent="1" name="A11930138">
+      <ObjectId>1133</ObjectId>
+    </schema>
+    <schema id="137" parent="1" name="A11930279">
+      <ObjectId>1134</ObjectId>
+    </schema>
+    <schema id="138" parent="1" name="A11930601">
+      <ObjectId>1136</ObjectId>
+    </schema>
+    <schema id="139" parent="1" name="A11930946">
+      <ObjectId>1137</ObjectId>
+    </schema>
+    <schema id="140" parent="1" name="A11931976">
+      <ObjectId>1139</ObjectId>
+    </schema>
+    <schema id="141" parent="1" name="A11934549">
+      <ObjectId>1140</ObjectId>
+    </schema>
+    <schema id="142" parent="1" name="A11938354">
+      <ObjectId>1141</ObjectId>
+    </schema>
+    <schema id="143" parent="1" name="A11941528">
+      <ObjectId>1142</ObjectId>
+    </schema>
+    <schema id="144" parent="1" name="A11942827">
+      <ObjectId>1144</ObjectId>
+    </schema>
+    <schema id="145" parent="1" name="A11942924">
+      <ObjectId>1145</ObjectId>
+    </schema>
+    <schema id="146" parent="1" name="A11943289">
+      <ObjectId>1146</ObjectId>
+    </schema>
+    <schema id="147" parent="1" name="A11944153">
+      <ObjectId>1147</ObjectId>
+    </schema>
+    <schema id="148" parent="1" name="A11945524">
+      <ObjectId>1149</ObjectId>
+    </schema>
+    <schema id="149" parent="1" name="A12010938">
+      <ObjectId>1156</ObjectId>
+    </schema>
+    <schema id="150" parent="1" name="A12014173">
+      <ObjectId>1157</ObjectId>
+    </schema>
+    <schema id="151" parent="1" name="A12016053">
+      <ObjectId>1151</ObjectId>
+    </schema>
+    <schema id="152" parent="1" name="A12022144">
+      <ObjectId>1152</ObjectId>
+    </schema>
+    <schema id="153" parent="1" name="A12022838">
+      <ObjectId>1161</ObjectId>
+    </schema>
+    <schema id="154" parent="1" name="A12024267">
+      <ObjectId>1164</ObjectId>
+    </schema>
+    <schema id="155" parent="1" name="A12025683">
+      <ObjectId>1165</ObjectId>
+    </schema>
+    <schema id="156" parent="1" name="A12028367">
+      <ObjectId>1167</ObjectId>
+    </schema>
+    <schema id="157" parent="1" name="A12028377">
+      <ObjectId>1150</ObjectId>
+    </schema>
+    <schema id="158" parent="1" name="A12028411">
+      <ObjectId>1168</ObjectId>
+    </schema>
+    <schema id="159" parent="1" name="A12028437">
+      <ObjectId>1163</ObjectId>
+    </schema>
+    <schema id="160" parent="1" name="A12028537">
+      <ObjectId>1170</ObjectId>
+    </schema>
+    <schema id="161" parent="1" name="A12028804">
+      <ObjectId>1171</ObjectId>
+    </schema>
+    <schema id="162" parent="1" name="A12028899">
+      <ObjectId>1172</ObjectId>
+    </schema>
+    <schema id="163" parent="1" name="A12028996">
+      <ObjectId>1173</ObjectId>
+    </schema>
+    <schema id="164" parent="1" name="A12029628">
+      <ObjectId>1174</ObjectId>
+    </schema>
+    <schema id="165" parent="1" name="A12029641">
+      <ObjectId>1175</ObjectId>
+    </schema>
+    <schema id="166" parent="1" name="A12029810">
+      <ObjectId>1176</ObjectId>
+    </schema>
+    <schema id="167" parent="1" name="A12029871">
+      <ObjectId>1177</ObjectId>
+    </schema>
+    <schema id="168" parent="1" name="A12030553">
+      <ObjectId>1166</ObjectId>
+    </schema>
+    <schema id="169" parent="1" name="A12031012">
+      <ObjectId>1181</ObjectId>
+    </schema>
+    <schema id="170" parent="1" name="A12031311">
+      <ObjectId>1179</ObjectId>
+    </schema>
+    <schema id="171" parent="1" name="A12031551">
+      <ObjectId>1182</ObjectId>
+    </schema>
+    <schema id="172" parent="1" name="A12032793">
+      <ObjectId>1183</ObjectId>
+    </schema>
+    <schema id="173" parent="1" name="A12033416">
+      <ObjectId>1153</ObjectId>
+    </schema>
+    <schema id="174" parent="1" name="A12034492">
+      <ObjectId>1180</ObjectId>
+    </schema>
+    <schema id="175" parent="1" name="A12034641">
+      <ObjectId>1187</ObjectId>
+    </schema>
+    <schema id="176" parent="1" name="A12035372">
+      <ObjectId>1184</ObjectId>
+    </schema>
+    <schema id="177" parent="1" name="A12035469">
+      <ObjectId>1185</ObjectId>
+    </schema>
+    <schema id="178" parent="1" name="A12036904">
+      <ObjectId>1186</ObjectId>
+    </schema>
+    <schema id="179" parent="1" name="A12042635">
+      <ObjectId>1188</ObjectId>
+    </schema>
+    <schema id="180" parent="1" name="A12043092">
+      <ObjectId>1190</ObjectId>
+    </schema>
+    <schema id="181" parent="1" name="A12043510">
+      <ObjectId>1160</ObjectId>
+    </schema>
+    <schema id="182" parent="1" name="A12044595">
+      <ObjectId>1189</ObjectId>
+    </schema>
+    <schema id="183" parent="1" name="A12113065">
+      <ObjectId>1193</ObjectId>
+    </schema>
+    <schema id="184" parent="1" name="A12138045">
+      <ObjectId>1196</ObjectId>
+    </schema>
+    <schema id="185" parent="1" name="A51807829">
+      <ObjectId>1155</ObjectId>
+    </schema>
+    <schema id="186" parent="1" name="A51814199">
+      <ObjectId>1195</ObjectId>
+    </schema>
+    <schema id="187" parent="1" name="A51832102">
+      <ObjectId>1158</ObjectId>
+    </schema>
+    <schema id="188" parent="1" name="A51832295">
+      <ObjectId>1148</ObjectId>
+    </schema>
+    <schema id="189" parent="1" name="A51867550">
+      <ObjectId>1194</ObjectId>
+    </schema>
+    <schema id="190" parent="1" name="A51876202">
+      <ObjectId>1104</ObjectId>
+    </schema>
+    <schema id="191" parent="1" name="ANONYMOUS">
+      <ObjectId>63</ObjectId>
+    </schema>
+    <schema id="192" parent="1" name="APPQOSSYS">
+      <ObjectId>55</ObjectId>
+    </schema>
+    <schema id="193" parent="1" name="AUDSYS">
+      <ObjectId>8</ObjectId>
+    </schema>
+    <schema id="194" parent="1" name="C##JAN">
+      <ObjectId>106</ObjectId>
+    </schema>
+    <schema id="195" parent="1" name="CHECKMK">
+      <ObjectId>925</ObjectId>
+    </schema>
+    <schema id="196" parent="1" name="CTXSYS">
+      <ObjectId>84</ObjectId>
+    </schema>
+    <schema id="197" parent="1" name="DBSFWUSER">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="198" parent="1" name="DBSNMP">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="199" parent="1" name="DIP">
+      <ObjectId>23</ObjectId>
+    </schema>
+    <schema id="200" parent="1" name="DVF">
+      <ObjectId>103</ObjectId>
+    </schema>
+    <schema id="201" parent="1" name="DVSYS">
+      <ObjectId>1279990</ObjectId>
+    </schema>
+    <schema id="202" parent="1" name="FENZT55">
+      <ObjectId>120</ObjectId>
+    </schema>
+    <schema id="203" parent="1" name="GGSYS">
+      <ObjectId>60</ObjectId>
+    </schema>
+    <schema id="204" parent="1" name="GSMADMIN_INTERNAL">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="205" parent="1" name="GSMCATUSER">
+      <ObjectId>59</ObjectId>
+    </schema>
+    <schema id="206" parent="1" name="GSMUSER">
+      <ObjectId>22</ObjectId>
+    </schema>
+    <schema id="207" parent="1" name="KRISLAG9">
+      <ObjectId>114</ObjectId>
+    </schema>
+    <schema id="208" parent="1" name="LBACSYS">
+      <ObjectId>101</ObjectId>
+    </schema>
+    <schema id="209" parent="1" name="MDDATA">
+      <ObjectId>96</ObjectId>
+    </schema>
+    <schema id="210" parent="1" name="MDSYS">
+      <ObjectId>90</ObjectId>
+    </schema>
+    <schema id="211" parent="1" name="OJVMSYS">
+      <ObjectId>81</ObjectId>
+    </schema>
+    <schema id="212" parent="1" name="OLAPSYS">
+      <ObjectId>93</ObjectId>
+    </schema>
+    <schema id="213" parent="1" name="ORACLE_OCM">
+      <ObjectId>39</ObjectId>
+    </schema>
+    <schema id="214" parent="1" name="ORDDATA">
+      <ObjectId>87</ObjectId>
+    </schema>
+    <schema id="215" parent="1" name="ORDPLUGINS">
+      <ObjectId>88</ObjectId>
+    </schema>
+    <schema id="216" parent="1" name="ORDSYS">
+      <ObjectId>86</ObjectId>
+    </schema>
+    <schema id="217" parent="1" name="OUTLN">
+      <ObjectId>13</ObjectId>
+    </schema>
+    <schema id="218" parent="1" name="PITTLB7">
+      <ObjectId>423</ObjectId>
+    </schema>
+    <schema id="219" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="220" parent="1" name="REMOTE_SCHEDULER_AGENT">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="221" parent="1" name="SCHABAH8">
+      <ObjectId>924</ObjectId>
+    </schema>
+    <schema id="222" parent="1" name="SCHIKUE9">
+      <ObjectId>112</ObjectId>
+    </schema>
+    <schema id="223" parent="1" name="SCHUETM9">
+      <ObjectId>115</ObjectId>
+    </schema>
+    <schema id="224" parent="1" name="SCHWINT3">
+      <ObjectId>1033</ObjectId>
+    </schema>
+    <schema id="225" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>89</ObjectId>
+    </schema>
+    <schema id="226" parent="1" name="SONNECG3">
+      <ObjectId>116</ObjectId>
+    </schema>
+    <schema id="227" parent="1" name="SPATIAL_CSW_ADMIN_USR">
+      <ObjectId>98</ObjectId>
+    </schema>
+    <schema id="228" parent="1" name="STANKOJ7">
+      <ObjectId>110</ObjectId>
+    </schema>
+    <schema id="229" parent="1" name="STERTZF9">
+      <ObjectId>118</ObjectId>
+    </schema>
+    <schema id="230" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="231" parent="1" name="SYS$UMF">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="232" parent="1" name="SYSBACKUP">
+      <ObjectId>2147483617</ObjectId>
+    </schema>
+    <schema id="233" parent="1" name="SYSDG">
+      <ObjectId>2147483618</ObjectId>
+    </schema>
+    <schema id="234" parent="1" name="SYSKM">
+      <ObjectId>2147483619</ObjectId>
+    </schema>
+    <schema id="235" parent="1" name="SYSRAC">
+      <ObjectId>2147483620</ObjectId>
+    </schema>
+    <schema id="236" parent="1" name="SYSTEM">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="237" parent="1" name="WANEKH2">
+      <ObjectId>111</ObjectId>
+    </schema>
+    <schema id="238" parent="1" name="WMSYS">
+      <ObjectId>72</ObjectId>
+    </schema>
+    <schema id="239" parent="1" name="WOEBERA8">
+      <ObjectId>117</ObjectId>
+    </schema>
+    <schema id="240" parent="1" name="WUENSCHEK21">
+      <ObjectId>119</ObjectId>
+    </schema>
+    <schema id="241" parent="1" name="XDB">
+      <ObjectId>62</ObjectId>
+    </schema>
+    <schema id="242" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <tablespace id="243" parent="1" name="SYSTEM">
+      <BlockSize>8192</BlockSize>
+      <ContentCategory>P</ContentCategory>
+      <LocalExtentManagement>1</LocalExtentManagement>
+      <Logging>2</Logging>
+      <Status>E</Status>
+    </tablespace>
+    <tablespace id="244" parent="1" name="SYSAUX">
+      <AutoSegmentManagement>1</AutoSegmentManagement>
+      <BlockSize>8192</BlockSize>
+      <ContentCategory>P</ContentCategory>
+      <LocalExtentManagement>1</LocalExtentManagement>
+      <Logging>2</Logging>
+      <Status>E</Status>
+    </tablespace>
+    <tablespace id="245" parent="1" name="UNDOTBS1">
+      <BlockSize>8192</BlockSize>
+      <ContentCategory>U</ContentCategory>
+      <LocalExtentManagement>1</LocalExtentManagement>
+      <Logging>1</Logging>
+      <Status>E</Status>
+    </tablespace>
+    <tablespace id="246" parent="1" name="TEMP">
+      <BlockSize>8192</BlockSize>
+      <ContentCategory>T</ContentCategory>
+      <LocalExtentManagement>1</LocalExtentManagement>
+      <Logging>0</Logging>
+      <Status>E</Status>
+    </tablespace>
+    <tablespace id="247" parent="1" name="USERS">
+      <AutoSegmentManagement>1</AutoSegmentManagement>
+      <BlockSize>8192</BlockSize>
+      <ContentCategory>P</ContentCategory>
+      <LocalExtentManagement>1</LocalExtentManagement>
+      <Logging>1</Logging>
+      <Status>E</Status>
+    </tablespace>
+    <user id="248" parent="1" name="A00271474">
+      <ObjectId>1095</ObjectId>
+    </user>
+    <user id="249" parent="1" name="A00425980">
+      <ObjectId>1068</ObjectId>
+    </user>
+    <user id="250" parent="1" name="A00642137">
+      <ObjectId>1192</ObjectId>
+    </user>
+    <user id="251" parent="1" name="A00751062">
+      <ObjectId>1009</ObjectId>
+    </user>
+    <user id="252" parent="1" name="A01060448">
+      <ObjectId>1066</ObjectId>
+    </user>
+    <user id="253" parent="1" name="A01100881">
+      <ObjectId>1011</ObjectId>
+    </user>
+    <user id="254" parent="1" name="A01106684">
+      <ObjectId>1012</ObjectId>
+    </user>
+    <user id="255" parent="1" name="A01128598">
+      <ObjectId>1051</ObjectId>
+    </user>
+    <user id="256" parent="1" name="A01163259">
+      <ObjectId>1010</ObjectId>
+    </user>
+    <user id="257" parent="1" name="A01209070">
+      <ObjectId>1014</ObjectId>
+    </user>
+    <user id="258" parent="1" name="A01221639">
+      <ObjectId>1169</ObjectId>
+    </user>
+    <user id="259" parent="1" name="A01248048">
+      <ObjectId>1015</ObjectId>
+    </user>
+    <user id="260" parent="1" name="A01249291">
+      <ObjectId>1013</ObjectId>
+    </user>
+    <user id="261" parent="1" name="A01267552">
+      <ObjectId>1016</ObjectId>
+    </user>
+    <user id="262" parent="1" name="A01304148">
+      <ObjectId>1018</ObjectId>
+    </user>
+    <user id="263" parent="1" name="A01309472">
+      <ObjectId>1017</ObjectId>
+    </user>
+    <user id="264" parent="1" name="A01313931">
+      <ObjectId>1029</ObjectId>
+    </user>
+    <user id="265" parent="1" name="A01316906">
+      <ObjectId>1008</ObjectId>
+    </user>
+    <user id="266" parent="1" name="A01348366">
+      <ObjectId>1019</ObjectId>
+    </user>
+    <user id="267" parent="1" name="A01353302">
+      <ObjectId>1154</ObjectId>
+    </user>
+    <user id="268" parent="1" name="A01401330">
+      <ObjectId>1020</ObjectId>
+    </user>
+    <user id="269" parent="1" name="A01403100">
+      <ObjectId>1022</ObjectId>
+    </user>
+    <user id="270" parent="1" name="A01409428">
+      <ObjectId>1021</ObjectId>
+    </user>
+    <user id="271" parent="1" name="A01447962">
+      <ObjectId>1023</ObjectId>
+    </user>
+    <user id="272" parent="1" name="A01451886">
+      <ObjectId>1036</ObjectId>
+    </user>
+    <user id="273" parent="1" name="A01504657">
+      <ObjectId>1024</ObjectId>
+    </user>
+    <user id="274" parent="1" name="A01505558">
+      <ObjectId>1025</ObjectId>
+    </user>
+    <user id="275" parent="1" name="A01505625">
+      <ObjectId>1031</ObjectId>
+    </user>
+    <user id="276" parent="1" name="A01506257">
+      <ObjectId>1032</ObjectId>
+    </user>
+    <user id="277" parent="1" name="A01506390">
+      <ObjectId>1026</ObjectId>
+    </user>
+    <user id="278" parent="1" name="A01507569">
+      <ObjectId>1027</ObjectId>
+    </user>
+    <user id="279" parent="1" name="A01526271">
+      <ObjectId>1041</ObjectId>
+    </user>
+    <user id="280" parent="1" name="A01546715">
+      <ObjectId>1030</ObjectId>
+    </user>
+    <user id="281" parent="1" name="A01547085">
+      <ObjectId>1028</ObjectId>
+    </user>
+    <user id="282" parent="1" name="A01553951">
+      <ObjectId>1138</ObjectId>
+    </user>
+    <user id="283" parent="1" name="A01576693">
+      <ObjectId>1034</ObjectId>
+    </user>
+    <user id="284" parent="1" name="A01603273">
+      <ObjectId>1038</ObjectId>
+    </user>
+    <user id="285" parent="1" name="A01607705">
+      <ObjectId>1097</ObjectId>
+    </user>
+    <user id="286" parent="1" name="A01609000">
+      <ObjectId>1088</ObjectId>
+    </user>
+    <user id="287" parent="1" name="A01609716">
+      <ObjectId>1037</ObjectId>
+    </user>
+    <user id="288" parent="1" name="A01611624">
+      <ObjectId>1162</ObjectId>
+    </user>
+    <user id="289" parent="1" name="A01615621">
+      <ObjectId>1054</ObjectId>
+    </user>
+    <user id="290" parent="1" name="A01622238">
+      <ObjectId>1082</ObjectId>
+    </user>
+    <user id="291" parent="1" name="A01627191">
+      <ObjectId>1039</ObjectId>
+    </user>
+    <user id="292" parent="1" name="A01628468">
+      <ObjectId>1040</ObjectId>
+    </user>
+    <user id="293" parent="1" name="A01629356">
+      <ObjectId>1191</ObjectId>
+    </user>
+    <user id="294" parent="1" name="A01630070">
+      <ObjectId>1055</ObjectId>
+    </user>
+    <user id="295" parent="1" name="A01630647">
+      <ObjectId>1035</ObjectId>
+    </user>
+    <user id="296" parent="1" name="A01650535">
+      <ObjectId>1047</ObjectId>
+    </user>
+    <user id="297" parent="1" name="A01650557">
+      <ObjectId>1059</ObjectId>
+    </user>
+    <user id="298" parent="1" name="A01651375">
+      <ObjectId>1042</ObjectId>
+    </user>
+    <user id="299" parent="1" name="A01653455">
+      <ObjectId>1044</ObjectId>
+    </user>
+    <user id="300" parent="1" name="A11709035">
+      <ObjectId>1045</ObjectId>
+    </user>
+    <user id="301" parent="1" name="A11710366">
+      <ObjectId>1122</ObjectId>
+    </user>
+    <user id="302" parent="1" name="A11710941">
+      <ObjectId>1046</ObjectId>
+    </user>
+    <user id="303" parent="1" name="A11713948">
+      <ObjectId>1070</ObjectId>
+    </user>
+    <user id="304" parent="1" name="A11721895">
+      <ObjectId>1057</ObjectId>
+    </user>
+    <user id="305" parent="1" name="A11723687">
+      <ObjectId>1048</ObjectId>
+    </user>
+    <user id="306" parent="1" name="A11724101">
+      <ObjectId>1049</ObjectId>
+    </user>
+    <user id="307" parent="1" name="A11724629">
+      <ObjectId>1050</ObjectId>
+    </user>
+    <user id="308" parent="1" name="A11725407">
+      <ObjectId>1052</ObjectId>
+    </user>
+    <user id="309" parent="1" name="A11726884">
+      <ObjectId>1053</ObjectId>
+    </user>
+    <user id="310" parent="1" name="A11731075">
+      <ObjectId>1056</ObjectId>
+    </user>
+    <user id="311" parent="1" name="A11739260">
+      <ObjectId>1060</ObjectId>
+    </user>
+    <user id="312" parent="1" name="A11740534">
+      <ObjectId>1067</ObjectId>
+    </user>
+    <user id="313" parent="1" name="A11742709">
+      <ObjectId>1058</ObjectId>
+    </user>
+    <user id="314" parent="1" name="A11743919">
+      <ObjectId>1197</ObjectId>
+    </user>
+    <user id="315" parent="1" name="A11774101">
+      <ObjectId>1043</ObjectId>
+    </user>
+    <user id="316" parent="1" name="A11805838">
+      <ObjectId>1135</ObjectId>
+    </user>
+    <user id="317" parent="1" name="A11807095">
+      <ObjectId>1061</ObjectId>
+    </user>
+    <user id="318" parent="1" name="A11807146">
+      <ObjectId>1065</ObjectId>
+    </user>
+    <user id="319" parent="1" name="A11807147">
+      <ObjectId>1062</ObjectId>
+    </user>
+    <user id="320" parent="1" name="A11807152">
+      <ObjectId>1063</ObjectId>
+    </user>
+    <user id="321" parent="1" name="A11807201">
+      <ObjectId>1064</ObjectId>
+    </user>
+    <user id="322" parent="1" name="A11809613">
+      <ObjectId>1117</ObjectId>
+    </user>
+    <user id="323" parent="1" name="A11810643">
+      <ObjectId>1069</ObjectId>
+    </user>
+    <user id="324" parent="1" name="A11812335">
+      <ObjectId>1115</ObjectId>
+    </user>
+    <user id="325" parent="1" name="A11812925">
+      <ObjectId>1089</ObjectId>
+    </user>
+    <user id="326" parent="1" name="A11816259">
+      <ObjectId>1102</ObjectId>
+    </user>
+    <user id="327" parent="1" name="A11817359">
+      <ObjectId>1071</ObjectId>
+    </user>
+    <user id="328" parent="1" name="A11819986">
+      <ObjectId>1178</ObjectId>
+    </user>
+    <user id="329" parent="1" name="A11826545">
+      <ObjectId>1072</ObjectId>
+    </user>
+    <user id="330" parent="1" name="A11826575">
+      <ObjectId>1073</ObjectId>
+    </user>
+    <user id="331" parent="1" name="A11827630">
+      <ObjectId>1074</ObjectId>
+    </user>
+    <user id="332" parent="1" name="A11827883">
+      <ObjectId>1075</ObjectId>
+    </user>
+    <user id="333" parent="1" name="A11827969">
+      <ObjectId>1076</ObjectId>
+    </user>
+    <user id="334" parent="1" name="A11829201">
+      <ObjectId>1077</ObjectId>
+    </user>
+    <user id="335" parent="1" name="A11829703">
+      <ObjectId>1078</ObjectId>
+    </user>
+    <user id="336" parent="1" name="A11831581">
+      <ObjectId>1079</ObjectId>
+    </user>
+    <user id="337" parent="1" name="A11832868">
+      <ObjectId>1080</ObjectId>
+    </user>
+    <user id="338" parent="1" name="A11832930">
+      <ObjectId>1081</ObjectId>
+    </user>
+    <user id="339" parent="1" name="A11833303">
+      <ObjectId>1083</ObjectId>
+    </user>
+    <user id="340" parent="1" name="A11833308">
+      <ObjectId>1084</ObjectId>
+    </user>
+    <user id="341" parent="1" name="A11833442">
+      <ObjectId>1085</ObjectId>
+    </user>
+    <user id="342" parent="1" name="A11833472">
+      <ObjectId>1086</ObjectId>
+    </user>
+    <user id="343" parent="1" name="A11833512">
+      <ObjectId>1087</ObjectId>
+    </user>
+    <user id="344" parent="1" name="A11840533">
+      <ObjectId>1128</ObjectId>
+    </user>
+    <user id="345" parent="1" name="A11840557">
+      <ObjectId>1159</ObjectId>
+    </user>
+    <user id="346" parent="1" name="A11846126">
+      <ObjectId>1091</ObjectId>
+    </user>
+    <user id="347" parent="1" name="A11847329">
+      <ObjectId>1092</ObjectId>
+    </user>
+    <user id="348" parent="1" name="A11847663">
+      <ObjectId>1093</ObjectId>
+    </user>
+    <user id="349" parent="1" name="A11847943">
+      <ObjectId>1094</ObjectId>
+    </user>
+    <user id="350" parent="1" name="A11848674">
+      <DefaultTablespace>USERS</DefaultTablespace>
+      <ObjectId>1096</ObjectId>
+      <TemporaryTablespace>TEMP</TemporaryTablespace>
+    </user>
+    <user id="351" parent="1" name="A11848989">
+      <ObjectId>1090</ObjectId>
+    </user>
+    <user id="352" parent="1" name="A11849010">
+      <ObjectId>1098</ObjectId>
+    </user>
+    <user id="353" parent="1" name="A11905971">
+      <ObjectId>1100</ObjectId>
+    </user>
+    <user id="354" parent="1" name="A11910874">
+      <ObjectId>1101</ObjectId>
+    </user>
+    <user id="355" parent="1" name="A11911280">
+      <ObjectId>1108</ObjectId>
+    </user>
+    <user id="356" parent="1" name="A11911281">
+      <ObjectId>1105</ObjectId>
+    </user>
+    <user id="357" parent="1" name="A11911289">
+      <ObjectId>1106</ObjectId>
+    </user>
+    <user id="358" parent="1" name="A11911303">
+      <ObjectId>1107</ObjectId>
+    </user>
+    <user id="359" parent="1" name="A11911331">
+      <ObjectId>1103</ObjectId>
+    </user>
+    <user id="360" parent="1" name="A11911349">
+      <ObjectId>1110</ObjectId>
+    </user>
+    <user id="361" parent="1" name="A11911350">
+      <ObjectId>1114</ObjectId>
+    </user>
+    <user id="362" parent="1" name="A11911353">
+      <ObjectId>1109</ObjectId>
+    </user>
+    <user id="363" parent="1" name="A11911354">
+      <ObjectId>1113</ObjectId>
+    </user>
+    <user id="364" parent="1" name="A11911413">
+      <ObjectId>1112</ObjectId>
+    </user>
+    <user id="365" parent="1" name="A11911425">
+      <ObjectId>1111</ObjectId>
+    </user>
+    <user id="366" parent="1" name="A11911466">
+      <ObjectId>1116</ObjectId>
+    </user>
+    <user id="367" parent="1" name="A11911474">
+      <ObjectId>1118</ObjectId>
+    </user>
+    <user id="368" parent="1" name="A11911897">
+      <ObjectId>1119</ObjectId>
+    </user>
+    <user id="369" parent="1" name="A11914912">
+      <ObjectId>1120</ObjectId>
+    </user>
+    <user id="370" parent="1" name="A11916925">
+      <ObjectId>1121</ObjectId>
+    </user>
+    <user id="371" parent="1" name="A11919391">
+      <ObjectId>1123</ObjectId>
+    </user>
+    <user id="372" parent="1" name="A11920187">
+      <ObjectId>1124</ObjectId>
+    </user>
+    <user id="373" parent="1" name="A11921889">
+      <ObjectId>1126</ObjectId>
+    </user>
+    <user id="374" parent="1" name="A11922002">
+      <ObjectId>1099</ObjectId>
+    </user>
+    <user id="375" parent="1" name="A11922120">
+      <ObjectId>1132</ObjectId>
+    </user>
+    <user id="376" parent="1" name="A11922927">
+      <ObjectId>1125</ObjectId>
+    </user>
+    <user id="377" parent="1" name="A11923951">
+      <ObjectId>1127</ObjectId>
+    </user>
+    <user id="378" parent="1" name="A11926105">
+      <ObjectId>1143</ObjectId>
+    </user>
+    <user id="379" parent="1" name="A11926717">
+      <ObjectId>1129</ObjectId>
+    </user>
+    <user id="380" parent="1" name="A11927288">
+      <ObjectId>1130</ObjectId>
+    </user>
+    <user id="381" parent="1" name="A11928625">
+      <ObjectId>1131</ObjectId>
+    </user>
+    <user id="382" parent="1" name="A11930138">
+      <ObjectId>1133</ObjectId>
+    </user>
+    <user id="383" parent="1" name="A11930279">
+      <ObjectId>1134</ObjectId>
+    </user>
+    <user id="384" parent="1" name="A11930601">
+      <ObjectId>1136</ObjectId>
+    </user>
+    <user id="385" parent="1" name="A11930946">
+      <ObjectId>1137</ObjectId>
+    </user>
+    <user id="386" parent="1" name="A11931976">
+      <ObjectId>1139</ObjectId>
+    </user>
+    <user id="387" parent="1" name="A11934549">
+      <ObjectId>1140</ObjectId>
+    </user>
+    <user id="388" parent="1" name="A11938354">
+      <ObjectId>1141</ObjectId>
+    </user>
+    <user id="389" parent="1" name="A11941528">
+      <ObjectId>1142</ObjectId>
+    </user>
+    <user id="390" parent="1" name="A11942827">
+      <ObjectId>1144</ObjectId>
+    </user>
+    <user id="391" parent="1" name="A11942924">
+      <ObjectId>1145</ObjectId>
+    </user>
+    <user id="392" parent="1" name="A11943289">
+      <ObjectId>1146</ObjectId>
+    </user>
+    <user id="393" parent="1" name="A11944153">
+      <ObjectId>1147</ObjectId>
+    </user>
+    <user id="394" parent="1" name="A11945524">
+      <ObjectId>1149</ObjectId>
+    </user>
+    <user id="395" parent="1" name="A12010938">
+      <ObjectId>1156</ObjectId>
+    </user>
+    <user id="396" parent="1" name="A12014173">
+      <ObjectId>1157</ObjectId>
+    </user>
+    <user id="397" parent="1" name="A12016053">
+      <ObjectId>1151</ObjectId>
+    </user>
+    <user id="398" parent="1" name="A12022144">
+      <ObjectId>1152</ObjectId>
+    </user>
+    <user id="399" parent="1" name="A12022838">
+      <ObjectId>1161</ObjectId>
+    </user>
+    <user id="400" parent="1" name="A12024267">
+      <ObjectId>1164</ObjectId>
+    </user>
+    <user id="401" parent="1" name="A12025683">
+      <ObjectId>1165</ObjectId>
+    </user>
+    <user id="402" parent="1" name="A12028367">
+      <ObjectId>1167</ObjectId>
+    </user>
+    <user id="403" parent="1" name="A12028377">
+      <ObjectId>1150</ObjectId>
+    </user>
+    <user id="404" parent="1" name="A12028411">
+      <ObjectId>1168</ObjectId>
+    </user>
+    <user id="405" parent="1" name="A12028437">
+      <ObjectId>1163</ObjectId>
+    </user>
+    <user id="406" parent="1" name="A12028537">
+      <ObjectId>1170</ObjectId>
+    </user>
+    <user id="407" parent="1" name="A12028804">
+      <ObjectId>1171</ObjectId>
+    </user>
+    <user id="408" parent="1" name="A12028899">
+      <ObjectId>1172</ObjectId>
+    </user>
+    <user id="409" parent="1" name="A12028996">
+      <ObjectId>1173</ObjectId>
+    </user>
+    <user id="410" parent="1" name="A12029628">
+      <ObjectId>1174</ObjectId>
+    </user>
+    <user id="411" parent="1" name="A12029641">
+      <ObjectId>1175</ObjectId>
+    </user>
+    <user id="412" parent="1" name="A12029810">
+      <ObjectId>1176</ObjectId>
+    </user>
+    <user id="413" parent="1" name="A12029871">
+      <ObjectId>1177</ObjectId>
+    </user>
+    <user id="414" parent="1" name="A12030553">
+      <ObjectId>1166</ObjectId>
+    </user>
+    <user id="415" parent="1" name="A12031012">
+      <ObjectId>1181</ObjectId>
+    </user>
+    <user id="416" parent="1" name="A12031311">
+      <ObjectId>1179</ObjectId>
+    </user>
+    <user id="417" parent="1" name="A12031551">
+      <ObjectId>1182</ObjectId>
+    </user>
+    <user id="418" parent="1" name="A12032793">
+      <ObjectId>1183</ObjectId>
+    </user>
+    <user id="419" parent="1" name="A12033416">
+      <ObjectId>1153</ObjectId>
+    </user>
+    <user id="420" parent="1" name="A12034492">
+      <ObjectId>1180</ObjectId>
+    </user>
+    <user id="421" parent="1" name="A12034641">
+      <ObjectId>1187</ObjectId>
+    </user>
+    <user id="422" parent="1" name="A12035372">
+      <ObjectId>1184</ObjectId>
+    </user>
+    <user id="423" parent="1" name="A12035469">
+      <ObjectId>1185</ObjectId>
+    </user>
+    <user id="424" parent="1" name="A12036904">
+      <ObjectId>1186</ObjectId>
+    </user>
+    <user id="425" parent="1" name="A12042635">
+      <ObjectId>1188</ObjectId>
+    </user>
+    <user id="426" parent="1" name="A12043092">
+      <ObjectId>1190</ObjectId>
+    </user>
+    <user id="427" parent="1" name="A12043510">
+      <ObjectId>1160</ObjectId>
+    </user>
+    <user id="428" parent="1" name="A12044595">
+      <ObjectId>1189</ObjectId>
+    </user>
+    <user id="429" parent="1" name="A12113065">
+      <ObjectId>1193</ObjectId>
+    </user>
+    <user id="430" parent="1" name="A12138045">
+      <ObjectId>1196</ObjectId>
+    </user>
+    <user id="431" parent="1" name="A51807829">
+      <ObjectId>1155</ObjectId>
+    </user>
+    <user id="432" parent="1" name="A51814199">
+      <ObjectId>1195</ObjectId>
+    </user>
+    <user id="433" parent="1" name="A51832102">
+      <ObjectId>1158</ObjectId>
+    </user>
+    <user id="434" parent="1" name="A51832295">
+      <ObjectId>1148</ObjectId>
+    </user>
+    <user id="435" parent="1" name="A51867550">
+      <ObjectId>1194</ObjectId>
+    </user>
+    <user id="436" parent="1" name="A51876202">
+      <ObjectId>1104</ObjectId>
+    </user>
+    <user id="437" parent="1" name="ANONYMOUS">
+      <ObjectId>63</ObjectId>
+    </user>
+    <user id="438" parent="1" name="APPQOSSYS">
+      <ObjectId>55</ObjectId>
+    </user>
+    <user id="439" parent="1" name="AUDSYS">
+      <ObjectId>8</ObjectId>
+    </user>
+    <user id="440" parent="1" name="C##JAN">
+      <ObjectId>106</ObjectId>
+    </user>
+    <user id="441" parent="1" name="CHECKMK">
+      <ObjectId>925</ObjectId>
+    </user>
+    <user id="442" parent="1" name="CTXSYS">
+      <ObjectId>84</ObjectId>
+    </user>
+    <user id="443" parent="1" name="DBSFWUSER">
+      <ObjectId>35</ObjectId>
+    </user>
+    <user id="444" parent="1" name="DBSNMP">
+      <ObjectId>54</ObjectId>
+    </user>
+    <user id="445" parent="1" name="DIP">
+      <ObjectId>23</ObjectId>
+    </user>
+    <user id="446" parent="1" name="DVF">
+      <ObjectId>103</ObjectId>
+    </user>
+    <user id="447" parent="1" name="DVSYS">
+      <ObjectId>1279990</ObjectId>
+    </user>
+    <user id="448" parent="1" name="FENZT55">
+      <ObjectId>120</ObjectId>
+    </user>
+    <user id="449" parent="1" name="GGSYS">
+      <ObjectId>60</ObjectId>
+    </user>
+    <user id="450" parent="1" name="GSMADMIN_INTERNAL">
+      <ObjectId>21</ObjectId>
+    </user>
+    <user id="451" parent="1" name="GSMCATUSER">
+      <ObjectId>59</ObjectId>
+    </user>
+    <user id="452" parent="1" name="GSMUSER">
+      <ObjectId>22</ObjectId>
+    </user>
+    <user id="453" parent="1" name="KRISLAG9">
+      <ObjectId>114</ObjectId>
+    </user>
+    <user id="454" parent="1" name="LBACSYS">
+      <ObjectId>101</ObjectId>
+    </user>
+    <user id="455" parent="1" name="MDDATA">
+      <ObjectId>96</ObjectId>
+    </user>
+    <user id="456" parent="1" name="MDSYS">
+      <ObjectId>90</ObjectId>
+    </user>
+    <user id="457" parent="1" name="OJVMSYS">
+      <ObjectId>81</ObjectId>
+    </user>
+    <user id="458" parent="1" name="OLAPSYS">
+      <ObjectId>93</ObjectId>
+    </user>
+    <user id="459" parent="1" name="ORACLE_OCM">
+      <ObjectId>39</ObjectId>
+    </user>
+    <user id="460" parent="1" name="ORDDATA">
+      <ObjectId>87</ObjectId>
+    </user>
+    <user id="461" parent="1" name="ORDPLUGINS">
+      <ObjectId>88</ObjectId>
+    </user>
+    <user id="462" parent="1" name="ORDSYS">
+      <ObjectId>86</ObjectId>
+    </user>
+    <user id="463" parent="1" name="OUTLN">
+      <ObjectId>13</ObjectId>
+    </user>
+    <user id="464" parent="1" name="PITTLB7">
+      <ObjectId>423</ObjectId>
+    </user>
+    <user id="465" parent="1" name="REMOTE_SCHEDULER_AGENT">
+      <ObjectId>34</ObjectId>
+    </user>
+    <user id="466" parent="1" name="SCHABAH8">
+      <ObjectId>924</ObjectId>
+    </user>
+    <user id="467" parent="1" name="SCHIKUE9">
+      <ObjectId>112</ObjectId>
+    </user>
+    <user id="468" parent="1" name="SCHUETM9">
+      <ObjectId>115</ObjectId>
+    </user>
+    <user id="469" parent="1" name="SCHWINT3">
+      <ObjectId>1033</ObjectId>
+    </user>
+    <user id="470" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>89</ObjectId>
+    </user>
+    <user id="471" parent="1" name="SONNECG3">
+      <ObjectId>116</ObjectId>
+    </user>
+    <user id="472" parent="1" name="SPATIAL_CSW_ADMIN_USR">
+      <ObjectId>98</ObjectId>
+    </user>
+    <user id="473" parent="1" name="STANKOJ7">
+      <ObjectId>110</ObjectId>
+    </user>
+    <user id="474" parent="1" name="STERTZF9">
+      <ObjectId>118</ObjectId>
+    </user>
+    <user id="475" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </user>
+    <user id="476" parent="1" name="SYS$UMF">
+      <ObjectId>46</ObjectId>
+    </user>
+    <user id="477" parent="1" name="SYSBACKUP">
+      <ObjectId>2147483617</ObjectId>
+    </user>
+    <user id="478" parent="1" name="SYSDG">
+      <ObjectId>2147483618</ObjectId>
+    </user>
+    <user id="479" parent="1" name="SYSKM">
+      <ObjectId>2147483619</ObjectId>
+    </user>
+    <user id="480" parent="1" name="SYSRAC">
+      <ObjectId>2147483620</ObjectId>
+    </user>
+    <user id="481" parent="1" name="SYSTEM">
+      <ObjectId>9</ObjectId>
+    </user>
+    <user id="482" parent="1" name="WANEKH2">
+      <ObjectId>111</ObjectId>
+    </user>
+    <user id="483" parent="1" name="WMSYS">
+      <ObjectId>72</ObjectId>
+    </user>
+    <user id="484" parent="1" name="WOEBERA8">
+      <ObjectId>117</ObjectId>
+    </user>
+    <user id="485" parent="1" name="WUENSCHEK21">
+      <ObjectId>119</ObjectId>
+    </user>
+    <user id="486" parent="1" name="XDB">
+      <ObjectId>62</ObjectId>
+    </user>
+    <user id="487" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </user>
+    <routine id="488" parent="104" name="BUCHAUTOR">
+      <CreatedTimestamp>2022-01-09.14:32:45</CreatedTimestamp>
+      <DependsOnIds>-9223372036854775808,1678071</DependsOnIds>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-01-09.15:07:30</ModifiedTimestamp>
+      <ObjectId>1723611</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <SourceTextLength>209</SourceTextLength>
+    </routine>
+    <routine id="489" parent="104" name="PROCEDURE_FIND_GENRE">
+      <CreatedTimestamp>2022-01-14.16:44:29</CreatedTimestamp>
+      <DependsOnIds>-9223372036854775808,1678085</DependsOnIds>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-01-15.16:03:51</ModifiedTimestamp>
+      <ObjectId>1736803</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <SourceTextLength>226</SourceTextLength>
+    </routine>
+    <routine id="490" parent="104" name="PROCEDURE_TAKE_RACK_CAPACITY">
+      <CreatedTimestamp>2022-01-15.14:43:13</CreatedTimestamp>
+      <DependsOnIds>-9223372036854775808,1678085</DependsOnIds>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2022-01-15.16:27:46</ModifiedTimestamp>
+      <ObjectId>1738706</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <SourceTextLength>234</SourceTextLength>
+    </routine>
+    <sequence id="491" parent="104" name="ISEQ$$_1629684">
+      <BelongsToColumn>1</BelongsToColumn>
+      <CreatedTimestamp>2021-11-24.14:23:18</CreatedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2021-11-24.14:23:18</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>1629685</ObjectId>
+      <SequenceIdentity>1(1)</SequenceIdentity>
+    </sequence>
+    <sequence id="492" parent="104" name="ISEQ$$_1629692">
+      <BelongsToColumn>1</BelongsToColumn>
+      <CreatedTimestamp>2021-11-24.14:23:18</CreatedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2021-11-24.14:23:18</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>1629693</ObjectId>
+      <SequenceIdentity>1(1)</SequenceIdentity>
+    </sequence>
+    <sequence id="493" parent="104" name="ISEQ$$_1629697">
+      <BelongsToColumn>1</BelongsToColumn>
+      <CreatedTimestamp>2021-11-24.14:23:18</CreatedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2021-11-24.14:23:18</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>1629698</ObjectId>
+      <SequenceIdentity>1(1)</SequenceIdentity>
+    </sequence>
+    <sequence id="494" parent="104" name="ISEQ$$_1629702">
+      <BelongsToColumn>1</BelongsToColumn>
+      <CreatedTimestamp>2021-11-24.14:23:18</CreatedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2021-11-24.14:23:18</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>1629703</ObjectId>
+      <SequenceIdentity>1(1)</SequenceIdentity>
+    </sequence>
+    <sequence id="495" parent="104" name="ISEQ$$_1678058">
+      <BelongsToColumn>1</BelongsToColumn>
+      <CreatedTimestamp>2021-12-14.20:27:34</CreatedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>1678059</ObjectId>
+      <SequenceIdentity>1(21)</SequenceIdentity>
+    </sequence>
+    <sequence id="496" parent="104" name="ISEQ$$_1678066">
+      <BelongsToColumn>1</BelongsToColumn>
+      <CreatedTimestamp>2021-12-14.20:27:34</CreatedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>1678067</ObjectId>
+      <SequenceIdentity>1(81)</SequenceIdentity>
+    </sequence>
+    <sequence id="497" parent="104" name="ISEQ$$_1678071">
+      <BelongsToColumn>1</BelongsToColumn>
+      <CreatedTimestamp>2021-12-14.20:27:34</CreatedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>1678072</ObjectId>
+      <SequenceIdentity>1(21)</SequenceIdentity>
+    </sequence>
+    <sequence id="498" parent="104" name="ISEQ$$_1678076">
+      <BelongsToColumn>1</BelongsToColumn>
+      <CreatedTimestamp>2021-12-14.20:27:34</CreatedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>1678077</ObjectId>
+      <SequenceIdentity>1(21)</SequenceIdentity>
+    </sequence>
+    <sequence id="499" parent="104" name="SEQ_KRITIKER_ID">
+      <CacheSize>100</CacheSize>
+      <CreatedTimestamp>2021-12-14.20:29:00</CreatedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2021-12-14.20:29:00</ModifiedTimestamp>
+      <ObjectId>1678093</ObjectId>
+      <SequenceIdentity>1(101)</SequenceIdentity>
+    </sequence>
+    <sequence id="500" parent="104" name="SEQ_LAG_ID">
+      <CacheSize>100</CacheSize>
+      <CreatedTimestamp>2021-12-14.20:29:00</CreatedTimestamp>
+      <DetailsLevel>2</DetailsLevel>
+      <ModifiedTimestamp>2021-12-14.20:29:00</ModifiedTimestamp>
+      <ObjectId>1678094</ObjectId>
+      <SequenceIdentity>1(101)</SequenceIdentity>
+    </sequence>
+    <table id="501" parent="104" name="AUTOR">
+      <CreatedTimestamp>2021-12-14.20:27:34</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <ObjectId>1678071</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="502" parent="104" name="BUCH">
+      <CreatedTimestamp>2021-12-14.20:27:34</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <ObjectId>1678066</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="503" parent="104" name="BUCHKRITIKER">
+      <CreatedTimestamp>2021-12-14.20:27:35</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2021-12-14.20:27:35</ModifiedTimestamp>
+      <ObjectId>1678081</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="504" parent="104" name="BUCHLAGER">
+      <CreatedTimestamp>2021-12-14.20:27:35</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2021-12-14.20:27:35</ModifiedTimestamp>
+      <ObjectId>1678083</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="505" parent="104" name="EXTERN">
+      <CreatedTimestamp>2021-12-14.20:27:34</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <ObjectId>1678064</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="506" parent="104" name="GELAGERT">
+      <CreatedTimestamp>2021-12-14.20:27:35</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2021-12-14.20:27:35</ModifiedTimestamp>
+      <ObjectId>1678091</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="507" parent="104" name="INTERN">
+      <CreatedTimestamp>2021-12-14.20:27:34</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <ObjectId>1678061</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="508" parent="104" name="MITARBEITER">
+      <CreatedTimestamp>2021-12-14.20:27:34</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <ObjectId>1678058</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="509" parent="104" name="REGAL">
+      <CreatedTimestamp>2021-12-14.20:27:35</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2021-12-14.20:27:35</ModifiedTimestamp>
+      <ObjectId>1678085</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="510" parent="104" name="REZENSIEREN">
+      <CreatedTimestamp>2021-12-14.20:27:35</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2021-12-14.20:27:35</ModifiedTimestamp>
+      <ObjectId>1678087</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="511" parent="104" name="REZENSION">
+      <CreatedTimestamp>2021-12-14.20:27:34</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <ObjectId>1678076</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="512" parent="104" name="SCHREIBT">
+      <CreatedTimestamp>2021-12-14.20:27:35</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2021-12-14.20:27:35</ModifiedTimestamp>
+      <ObjectId>1678089</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="513" parent="104" name="TEST">
+      <CreatedTimestamp>2021-12-14.23:45:35</CreatedTimestamp>
+      <DetailsLevel>3</DetailsLevel>
+      <ModifiedTimestamp>2021-12-14.23:45:35</ModifiedTimestamp>
+      <ObjectId>1678129</ObjectId>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <view id="514" parent="104" name="VIEW_AUTHORS_FOR_BOOK">
+      <CreatedTimestamp>2021-12-29.21:36:52</CreatedTimestamp>
+      <DependsOnIds>1678066,1678071,1678089</DependsOnIds>
+      <DetailsLevel>3</DetailsLevel>
+      <Modifiable>1</Modifiable>
+      <ModifiedTimestamp>2021-12-29.21:56:21</ModifiedTimestamp>
+      <ObjectId>1697833</ObjectId>
+      <SourceTextLength>108</SourceTextLength>
+    </view>
+    <view id="515" parent="104" name="VIEW_AUTHORS_SORTED_BY_SURNAME">
+      <CreatedTimestamp>2022-01-10.00:29:22</CreatedTimestamp>
+      <DependsOnIds>1678071</DependsOnIds>
+      <DetailsLevel>3</DetailsLevel>
+      <Modifiable>1</Modifiable>
+      <ModifiedTimestamp>2022-01-11.01:38:51</ModifiedTimestamp>
+      <ObjectId>1725610</ObjectId>
+      <SourceTextLength>56</SourceTextLength>
+    </view>
+    <view id="516" parent="104" name="VIEW_AUTHOR_WROTE_BOOK">
+      <CreatedTimestamp>2022-01-18.03:09:08</CreatedTimestamp>
+      <DependsOnIds>1678089</DependsOnIds>
+      <DetailsLevel>3</DetailsLevel>
+      <Modifiable>1</Modifiable>
+      <ModifiedTimestamp>2022-01-18.03:18:50</ModifiedTimestamp>
+      <ObjectId>1745650</ObjectId>
+      <SourceTextLength>41</SourceTextLength>
+    </view>
+    <view id="517" parent="104" name="VIEW_AUTOR_INFORMATION">
+      <CreatedTimestamp>2021-12-15.22:19:43</CreatedTimestamp>
+      <DependsOnIds>1678066,1678071,1678089</DependsOnIds>
+      <DetailsLevel>3</DetailsLevel>
+      <Modifiable>1</Modifiable>
+      <ModifiedTimestamp>2022-01-11.00:02:30</ModifiedTimestamp>
+      <ObjectId>1679542</ObjectId>
+      <SourceTextLength>152</SourceTextLength>
+    </view>
+    <view id="518" parent="104" name="VIEW_BOOKS_FOR_AUTHOR">
+      <CreatedTimestamp>2022-01-11.01:35:14</CreatedTimestamp>
+      <DependsOnIds>1678066,1678071,1678089</DependsOnIds>
+      <DetailsLevel>3</DetailsLevel>
+      <Modifiable>1</Modifiable>
+      <ModifiedTimestamp>2022-01-11.01:35:14</ModifiedTimestamp>
+      <ObjectId>1728605</ObjectId>
+      <SourceTextLength>155</SourceTextLength>
+    </view>
+    <view id="519" parent="104" name="VIEW_BOOK_STORE_CAPACITY_STATUS">
+      <CreatedTimestamp>2022-01-11.20:57:12</CreatedTimestamp>
+      <DependsOnIds>1679615,1679616</DependsOnIds>
+      <DetailsLevel>3</DetailsLevel>
+      <Modifiable>1</Modifiable>
+      <ModifiedTimestamp>2022-01-11.20:57:12</ModifiedTimestamp>
+      <ObjectId>1732359</ObjectId>
+      <SourceTextLength>166</SourceTextLength>
+    </view>
+    <view id="520" parent="104" name="VIEW_SUM_BOOKS_PER_RACK">
+      <CreatedTimestamp>2022-01-15.15:49:27</CreatedTimestamp>
+      <DependsOnIds>1678091</DependsOnIds>
+      <DetailsLevel>3</DetailsLevel>
+      <Modifiable>1</Modifiable>
+      <ModifiedTimestamp>2022-01-15.16:30:23</ModifiedTimestamp>
+      <ObjectId>1738816</ObjectId>
+      <SourceTextLength>105</SourceTextLength>
+    </view>
+    <view id="521" parent="104" name="VIEW_TOTAL_BOOKS_PER_STORE">
+      <CreatedTimestamp>2021-12-15.22:57:33</CreatedTimestamp>
+      <DependsOnIds>1678083,1678091</DependsOnIds>
+      <DetailsLevel>3</DetailsLevel>
+      <Modifiable>1</Modifiable>
+      <ModifiedTimestamp>2022-01-11.20:45:33</ModifiedTimestamp>
+      <ObjectId>1679615</ObjectId>
+      <SourceTextLength>138</SourceTextLength>
+    </view>
+    <view id="522" parent="104" name="VIEW_TOTAL_CAPACITY_IN_STORE">
+      <CreatedTimestamp>2021-12-15.22:57:38</CreatedTimestamp>
+      <DependsOnIds>1678083,1678085</DependsOnIds>
+      <DetailsLevel>3</DetailsLevel>
+      <Modifiable>1</Modifiable>
+      <ModifiedTimestamp>2021-12-15.22:57:38</ModifiedTimestamp>
+      <ObjectId>1679616</ObjectId>
+      <SourceTextLength>229</SourceTextLength>
+    </view>
+    <argument id="523" parent="488" name="AUTORID">
+      <DataType>NUMBER|0s</DataType>
+      <Position>1</Position>
+    </argument>
+    <argument id="524" parent="488" name="AUTOR_FULL_NAME">
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0s</DataType>
+      <Position>2</Position>
+    </argument>
+    <argument id="525" parent="489" name="BOOK_GENRE">
+      <DataType>VARCHAR2|0s</DataType>
+      <Position>1</Position>
+    </argument>
+    <argument id="526" parent="489" name="BOOKSTORE_ID">
+      <DataType>NUMBER|0s</DataType>
+      <Position>2</Position>
+    </argument>
+    <argument id="527" parent="489" name="RACK_NR">
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>NUMBER|0s</DataType>
+      <Position>3</Position>
+    </argument>
+    <argument id="528" parent="490" name="RACK_NR">
+      <DataType>NUMBER|0s</DataType>
+      <Position>1</Position>
+    </argument>
+    <argument id="529" parent="490" name="BOOKSTORE_ID">
+      <DataType>NUMBER|0s</DataType>
+      <Position>2</Position>
+    </argument>
+    <argument id="530" parent="490" name="RACK_CAP">
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>NUMBER|0s</DataType>
+      <Position>3</Position>
+    </argument>
+    <column id="531" parent="501" name="AUTOR_ID">
+      <AutoInc>1</AutoInc>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="532" parent="501" name="AU_VORNAME">
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="533" parent="501" name="AU_NACHNAME">
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="534" parent="501" name="BIO">
+      <DataType>CLOB|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <index id="535" parent="501" name="PK_AUTOR">
+      <ColNames>AUTOR_ID</ColNames>
+      <CreatedTimestamp>2021-12-14.20:27:34</CreatedTimestamp>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <ObjectId>1678075</ObjectId>
+      <TablespaceName>USERS</TablespaceName>
+      <Unique>1</Unique>
+    </index>
+    <key id="536" parent="501" name="PK_AUTOR">
+      <ColNames>AUTOR_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_AUTOR</UnderlyingIndexName>
+    </key>
+    <check id="537" parent="502" name="CHECK_SEITEN_ANZ">
+      <ColNames>SEITEN_ANZ</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <Predicate>seiten_anz &gt; 0</Predicate>
+    </check>
+    <column id="538" parent="502" name="BUCH_ID">
+      <AutoInc>1</AutoInc>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <DefaultExpression>&quot;A11848674&quot;.&quot;ISEQ$$_1678066&quot;.nextval</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="539" parent="502" name="ISBN">
+      <DataType>VARCHAR2(13 byte)|0s</DataType>
+      <DefaultExpression>(&apos;9783903022xxx&apos;)</DefaultExpression>
+      <Position>2</Position>
+    </column>
+    <column id="540" parent="502" name="TITEL">
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="541" parent="502" name="KURZ_BESCHR">
+      <DataType>CLOB|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="542" parent="502" name="SEITEN_ANZ">
+      <DataType>NUMBER(3 digit)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="543" parent="502" name="COVER">
+      <DataType>VARCHAR2(110 byte)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="544" parent="502" name="ERSCH_JAHR">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="545" parent="502" name="PREIS">
+      <DataType>NUMBER(5,2 digit)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="546" parent="502" name="GENRE">
+      <DataType>VARCHAR2(60 byte)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="547" parent="502" name="NEU_ERSCH">
+      <DataType>NUMBER(1 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>10</Position>
+    </column>
+    <index id="548" parent="502" name="PK_BUCH">
+      <ColNames>BUCH_ID</ColNames>
+      <CreatedTimestamp>2021-12-14.20:27:34</CreatedTimestamp>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <ObjectId>1678070</ObjectId>
+      <TablespaceName>USERS</TablespaceName>
+      <Unique>1</Unique>
+    </index>
+    <key id="549" parent="502" name="PK_BUCH">
+      <ColNames>BUCH_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_BUCH</UnderlyingIndexName>
+    </key>
+    <column id="550" parent="503" name="KRITIKER_ID">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="551" parent="503" name="KR_VORNAME">
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="552" parent="503" name="KR_NACHNAME">
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <index id="553" parent="503" name="PK_BUCHKRITIKER">
+      <ColNames>KRITIKER_ID</ColNames>
+      <CreatedTimestamp>2021-12-14.20:27:35</CreatedTimestamp>
+      <ModifiedTimestamp>2021-12-14.20:27:35</ModifiedTimestamp>
+      <ObjectId>1678082</ObjectId>
+      <TablespaceName>USERS</TablespaceName>
+      <Unique>1</Unique>
+    </index>
+    <key id="554" parent="503" name="PK_BUCHKRITIKER">
+      <ColNames>KRITIKER_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2021-12-14.20:27:35</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_BUCHKRITIKER</UnderlyingIndexName>
+    </key>
+    <trigger id="555" parent="503" name="TRIGGER_KRITIKER_ID">
+      <CreatedTimestamp>2021-12-14.20:29:03</CreatedTimestamp>
+      <Events>I</Events>
+      <ModifiedTimestamp>2021-12-14.20:29:03</ModifiedTimestamp>
+      <ObjectId>1629723</ObjectId>
+      <SourceTextLength>201</SourceTextLength>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="556" parent="504" name="LAG_ID">
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="557" parent="504" name="LAG_STRASSE">
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="558" parent="504" name="LAG_PLZ">
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="559" parent="504" name="LAG_ORT">
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <DefaultExpression>(&apos;Wien&apos;)</DefaultExpression>
+      <Position>4</Position>
+    </column>
+    <column id="560" parent="504" name="LAG_LAND">
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <DefaultExpression>(&apos;Österreich&apos;)</DefaultExpression>
+      <Position>5</Position>
+    </column>
+    <index id="561" parent="504" name="PK_BUCHLAGER">
+      <ColNames>LAG_ID</ColNames>
+      <CreatedTimestamp>2021-12-14.20:27:35</CreatedTimestamp>
+      <ModifiedTimestamp>2021-12-14.20:27:35</ModifiedTimestamp>
+      <ObjectId>1678084</ObjectId>
+      <TablespaceName>USERS</TablespaceName>
+      <Unique>1</Unique>
+    </index>
+    <key id="562" parent="504" name="PK_BUCHLAGER">
+      <ColNames>LAG_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2021-12-14.20:27:35</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_BUCHLAGER</UnderlyingIndexName>
+    </key>
+    <trigger id="563" parent="504" name="TRIGGER_LAG_ID">
+      <CreatedTimestamp>2021-12-14.20:29:03</CreatedTimestamp>
+      <Events>I</Events>
+      <ModifiedTimestamp>2021-12-14.20:29:03</ModifiedTimestamp>
+      <ObjectId>1629724</ObjectId>
+      <SourceTextLength>183</SourceTextLength>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="564" parent="505" name="EXT_EMAIL">
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="565" parent="505" name="EXT_TEL">
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="566" parent="505" name="TAETIGKEIT">
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="567" parent="505" name="MA_ID">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <foreign-key id="568" parent="505" name="FK_GENERALIZATION_MA_EXTERN">
+      <ColNames>MA_ID</ColNames>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <OnDelete>cascade</OnDelete>
+      <RefKeyName>PK_MITARBEITER</RefKeyName>
+      <RefTableName>MITARBEITER</RefTableName>
+    </foreign-key>
+    <index id="569" parent="505" name="PK_EXTERN_ISA">
+      <ColNames>MA_ID</ColNames>
+      <CreatedTimestamp>2021-12-14.20:27:34</CreatedTimestamp>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <ObjectId>1678065</ObjectId>
+      <TablespaceName>USERS</TablespaceName>
+      <Unique>1</Unique>
+    </index>
+    <key id="570" parent="505" name="PK_EXTERN_ISA">
+      <ColNames>MA_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_EXTERN_ISA</UnderlyingIndexName>
+    </key>
+    <column id="571" parent="506" name="BUCH_ID">
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="572" parent="506" name="REGAL_NR">
+      <DataType>NUMBER(2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="573" parent="506" name="LAG_ID">
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="574" parent="506" name="STUECK">
+      <DataType>NUMBER(6 digit)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <foreign-key id="575" parent="506" name="FK_REL_BUCH_GELAGERT">
+      <ColNames>BUCH_ID</ColNames>
+      <ModifiedTimestamp>2021-12-14.20:27:35</ModifiedTimestamp>
+      <OnDelete>restrict</OnDelete>
+      <RefKeyName>PK_BUCH</RefKeyName>
+      <RefTableName>BUCH</RefTableName>
+    </foreign-key>
+    <foreign-key id="576" parent="506" name="FK_REL_REGAL_GELAGERT">
+      <ColNames>REGAL_NR
+LAG_ID</ColNames>
+      <ModifiedTimestamp>2021-12-14.20:27:35</ModifiedTimestamp>
+      <OnDelete>restrict</OnDelete>
+      <RefKeyName>PK_REGAL_WEAK_ENTITY</RefKeyName>
+      <RefTableName>REGAL</RefTableName>
+    </foreign-key>
+    <index id="577" parent="506" name="PK_REL_GELAGERT">
+      <ColNames>BUCH_ID
+REGAL_NR
+LAG_ID</ColNames>
+      <CreatedTimestamp>2021-12-14.20:27:35</CreatedTimestamp>
+      <ModifiedTimestamp>2021-12-14.20:27:35</ModifiedTimestamp>
+      <ObjectId>1678092</ObjectId>
+      <TablespaceName>USERS</TablespaceName>
+      <Unique>1</Unique>
+    </index>
+    <key id="578" parent="506" name="PK_REL_GELAGERT">
+      <ColNames>BUCH_ID
+REGAL_NR
+LAG_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2021-12-14.20:27:35</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_REL_GELAGERT</UnderlyingIndexName>
+    </key>
+    <check id="579" parent="507" name="CHECK_GEHALT">
+      <ColNames>GEHALT</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <Predicate>gehalt &gt; 1500 AND gehalt &lt; 5000</Predicate>
+    </check>
+    <column id="580" parent="507" name="SV_NR">
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="581" parent="507" name="GEHALT">
+      <DataType>NUMBER(6,2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="582" parent="507" name="MA_ID">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="583" parent="507" name="CHEF_ID">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <foreign-key id="584" parent="507" name="FK_GENERALIZATION_MA_INTERN">
+      <ColNames>MA_ID</ColNames>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <OnDelete>cascade</OnDelete>
+      <RefKeyName>PK_MITARBEITER</RefKeyName>
+      <RefTableName>MITARBEITER</RefTableName>
+    </foreign-key>
+    <foreign-key id="585" parent="507" name="FK_GENERALIZATION_MA_CHEF_INTERN">
+      <ColNames>CHEF_ID</ColNames>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <OnDelete>restrict</OnDelete>
+      <RefKeyName>PK_INTERN_ISA</RefKeyName>
+      <RefTableName>INTERN</RefTableName>
+    </foreign-key>
+    <index id="586" parent="507" name="UNIQUE_INTERN_SV">
+      <ColNames>SV_NR</ColNames>
+      <CreatedTimestamp>2021-12-14.20:27:34</CreatedTimestamp>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <ObjectId>1678063</ObjectId>
+      <TablespaceName>USERS</TablespaceName>
+      <Unique>1</Unique>
+    </index>
+    <index id="587" parent="507" name="PK_INTERN_ISA">
+      <ColNames>MA_ID</ColNames>
+      <CreatedTimestamp>2021-12-14.20:27:34</CreatedTimestamp>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <ObjectId>1678062</ObjectId>
+      <TablespaceName>USERS</TablespaceName>
+      <Unique>1</Unique>
+    </index>
+    <key id="588" parent="507" name="PK_INTERN_ISA">
+      <ColNames>MA_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_INTERN_ISA</UnderlyingIndexName>
+    </key>
+    <key id="589" parent="507" name="UNIQUE_INTERN_SV">
+      <ColNames>SV_NR</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <UnderlyingIndexName>UNIQUE_INTERN_SV</UnderlyingIndexName>
+    </key>
+    <column id="590" parent="508" name="MA_ID">
+      <AutoInc>1</AutoInc>
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="591" parent="508" name="MA_VORNAME">
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="592" parent="508" name="MA_NACHNAME">
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <index id="593" parent="508" name="PK_MITARBEITER">
+      <ColNames>MA_ID</ColNames>
+      <CreatedTimestamp>2021-12-14.20:27:34</CreatedTimestamp>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <ObjectId>1678060</ObjectId>
+      <TablespaceName>USERS</TablespaceName>
+      <Unique>1</Unique>
+    </index>
+    <key id="594" parent="508" name="PK_MITARBEITER">
+      <ColNames>MA_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_MITARBEITER</UnderlyingIndexName>
+    </key>
+    <check id="595" parent="509" name="CHECK_KAPAZITAET">
+      <ColNames>REGAL_KAPAZITAET</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2021-12-14.20:27:35</ModifiedTimestamp>
+      <Predicate>regal_kapazitaet &gt; 400 AND regal_kapazitaet &lt; 4000</Predicate>
+    </check>
+    <column id="596" parent="509" name="REGAL_NR">
+      <DataType>NUMBER(2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="597" parent="509" name="REGAL_NAME">
+      <DataType>VARCHAR2(60 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="598" parent="509" name="REGAL_KAPAZITAET">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="599" parent="509" name="LAG_ID">
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <foreign-key id="600" parent="509" name="FK_WEAK_ENTITY_REGAL_BUCHLAGER">
+      <ColNames>LAG_ID</ColNames>
+      <ModifiedTimestamp>2021-12-14.20:27:35</ModifiedTimestamp>
+      <OnDelete>cascade</OnDelete>
+      <RefKeyName>PK_BUCHLAGER</RefKeyName>
+      <RefTableName>BUCHLAGER</RefTableName>
+    </foreign-key>
+    <index id="601" parent="509" name="PK_REGAL_WEAK_ENTITY">
+      <ColNames>REGAL_NR
+LAG_ID</ColNames>
+      <CreatedTimestamp>2021-12-14.20:27:35</CreatedTimestamp>
+      <ModifiedTimestamp>2021-12-14.20:27:35</ModifiedTimestamp>
+      <ObjectId>1678086</ObjectId>
+      <TablespaceName>USERS</TablespaceName>
+      <Unique>1</Unique>
+    </index>
+    <key id="602" parent="509" name="PK_REGAL_WEAK_ENTITY">
+      <ColNames>REGAL_NR
+LAG_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2021-12-14.20:27:35</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_REGAL_WEAK_ENTITY</UnderlyingIndexName>
+    </key>
+    <column id="603" parent="510" name="KRITIKER_ID">
+      <DataType>NUMBER(4 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="604" parent="510" name="REZ_ID">
+      <DataType>NUMBER(6 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="605" parent="510" name="BUCH_ID">
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <foreign-key id="606" parent="510" name="FK_REL_BUCHKRITIKER_REZENSIEREN">
+      <ColNames>KRITIKER_ID</ColNames>
+      <ModifiedTimestamp>2021-12-14.20:27:35</ModifiedTimestamp>
+      <OnDelete>restrict</OnDelete>
+      <RefKeyName>PK_BUCHKRITIKER</RefKeyName>
+      <RefTableName>BUCHKRITIKER</RefTableName>
+    </foreign-key>
+    <foreign-key id="607" parent="510" name="FK_REL_REZENSION_REZENSIEREN">
+      <ColNames>REZ_ID</ColNames>
+      <ModifiedTimestamp>2021-12-14.20:27:35</ModifiedTimestamp>
+      <OnDelete>restrict</OnDelete>
+      <RefKeyName>PK_REZENSION</RefKeyName>
+      <RefTableName>REZENSION</RefTableName>
+    </foreign-key>
+    <foreign-key id="608" parent="510" name="FK_REL_BUCH_REZENSIEREN">
+      <ColNames>BUCH_ID</ColNames>
+      <ModifiedTimestamp>2021-12-14.20:27:35</ModifiedTimestamp>
+      <OnDelete>restrict</OnDelete>
+      <RefKeyName>PK_BUCH</RefKeyName>
+      <RefTableName>BUCH</RefTableName>
+    </foreign-key>
+    <index id="609" parent="510" name="PK_REL_REZENSIEREN">
+      <ColNames>KRITIKER_ID
+REZ_ID
+BUCH_ID</ColNames>
+      <CreatedTimestamp>2021-12-14.20:27:35</CreatedTimestamp>
+      <ModifiedTimestamp>2021-12-14.20:27:35</ModifiedTimestamp>
+      <ObjectId>1678088</ObjectId>
+      <TablespaceName>USERS</TablespaceName>
+      <Unique>1</Unique>
+    </index>
+    <key id="610" parent="510" name="PK_REL_REZENSIEREN">
+      <ColNames>KRITIKER_ID
+REZ_ID
+BUCH_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2021-12-14.20:27:35</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_REL_REZENSIEREN</UnderlyingIndexName>
+    </key>
+    <column id="611" parent="511" name="REZ_ID">
+      <AutoInc>1</AutoInc>
+      <DataType>NUMBER(6 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="612" parent="511" name="INHALT">
+      <DataType>CLOB|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="613" parent="511" name="QUELLE">
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="614" parent="511" name="DATUM">
+      <DataType>DATE|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <index id="615" parent="511" name="PK_REZENSION">
+      <ColNames>REZ_ID</ColNames>
+      <CreatedTimestamp>2021-12-14.20:27:34</CreatedTimestamp>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <ObjectId>1678080</ObjectId>
+      <TablespaceName>USERS</TablespaceName>
+      <Unique>1</Unique>
+    </index>
+    <key id="616" parent="511" name="PK_REZENSION">
+      <ColNames>REZ_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2021-12-14.20:27:34</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_REZENSION</UnderlyingIndexName>
+    </key>
+    <column id="617" parent="512" name="AUTOR_ID">
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="618" parent="512" name="BUCH_ID">
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <foreign-key id="619" parent="512" name="FK_REL_AUTOR_SCHREIBT">
+      <ColNames>AUTOR_ID</ColNames>
+      <ModifiedTimestamp>2021-12-14.20:27:35</ModifiedTimestamp>
+      <OnDelete>restrict</OnDelete>
+      <RefKeyName>PK_AUTOR</RefKeyName>
+      <RefTableName>AUTOR</RefTableName>
+    </foreign-key>
+    <foreign-key id="620" parent="512" name="FK_REL_BUCH_SCHREIBT">
+      <ColNames>BUCH_ID</ColNames>
+      <ModifiedTimestamp>2021-12-14.20:27:35</ModifiedTimestamp>
+      <OnDelete>restrict</OnDelete>
+      <RefKeyName>PK_BUCH</RefKeyName>
+      <RefTableName>BUCH</RefTableName>
+    </foreign-key>
+    <index id="621" parent="512" name="PK_REL_SCHREIBT">
+      <ColNames>AUTOR_ID
+BUCH_ID</ColNames>
+      <CreatedTimestamp>2021-12-14.20:27:35</CreatedTimestamp>
+      <ModifiedTimestamp>2021-12-14.20:27:35</ModifiedTimestamp>
+      <ObjectId>1678090</ObjectId>
+      <TablespaceName>USERS</TablespaceName>
+      <Unique>1</Unique>
+    </index>
+    <key id="622" parent="512" name="PK_REL_SCHREIBT">
+      <ColNames>AUTOR_ID
+BUCH_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2021-12-14.20:27:35</ModifiedTimestamp>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_REL_SCHREIBT</UnderlyingIndexName>
+    </key>
+    <column id="623" parent="513" name="ID">
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="624" parent="513" name="VNAME">
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <index id="625" parent="513" name="SYS_C001956357">
+      <ColNames>ID</ColNames>
+      <CreatedTimestamp>2021-12-14.23:45:35</CreatedTimestamp>
+      <ModifiedTimestamp>2021-12-14.23:45:35</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>1678130</ObjectId>
+      <TablespaceName>USERS</TablespaceName>
+      <Unique>1</Unique>
+    </index>
+    <key id="626" parent="513" name="SYS_C001956357">
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <ModifiedTimestamp>2021-12-14.23:45:35</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>SYS_C001956357</UnderlyingIndexName>
+    </key>
+    <column id="627" parent="514" name="AUTOR_ID">
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="628" parent="514" name="AU_NACHNAME">
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="629" parent="514" name="AU_VORNAME">
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="630" parent="514" name="BUCH_ID">
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="631" parent="515" name="AUTOR_ID">
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="632" parent="515" name="AU_VORNAME">
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="633" parent="515" name="AU_NACHNAME">
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="634" parent="515" name="BIO">
+      <DataType>CLOB|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="635" parent="516" name="AUTOR_ID">
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="636" parent="516" name="BUCH_ID">
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="637" parent="517" name="BUCH_ID">
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="638" parent="517" name="ISBN">
+      <DataType>VARCHAR2(13 byte)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="639" parent="517" name="TITEL">
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="640" parent="517" name="COVER">
+      <DataType>VARCHAR2(110 byte)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="641" parent="517" name="AU_VORNAME">
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="642" parent="517" name="AU_NACHNAME">
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <column id="643" parent="517" name="AUTOR_ID">
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+    </column>
+    <column id="644" parent="518" name="BUCH_ID">
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="645" parent="518" name="TITEL">
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="646" parent="518" name="COVER">
+      <DataType>VARCHAR2(110 byte)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="647" parent="519" name="LAG_ID">
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="648" parent="519" name="GESAMTKAPAZITAET">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="649" parent="519" name="LAG_STRASSE">
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="650" parent="519" name="LAG_PLZ">
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="651" parent="519" name="LAG_ORT">
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="652" parent="519" name="GESAMTBUECHER">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="653" parent="520" name="SUMME_BUECHER_REGAL">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="654" parent="520" name="LAG_ID">
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="655" parent="520" name="REGAL_NR">
+      <DataType>NUMBER(2 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="656" parent="521" name="GESAMTBUECHER">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="657" parent="521" name="LAG_ID">
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="658" parent="522" name="GESAMTKAPAZITAET">
+      <DataType>NUMBER(*)|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="659" parent="522" name="LAG_ID">
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="660" parent="522" name="LAG_STRASSE">
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="661" parent="522" name="LAG_PLZ">
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="662" parent="522" name="LAG_ORT">
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <Position>5</Position>
+    </column>
+  </database-model>
+</dataSource>
