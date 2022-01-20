@@ -1,10 +1,42 @@
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.Statement;
+import java.sql.*;
+import java.util.List;
+import java.util.Random;
 
 public class DatabaseInserter {
     private final DatabaseConnector DB_CONNECTOR = new DatabaseConnector();
+    private CustomFileReader customFileReader = new CustomFileReader();
+
+    public int insertEmployees() {
+        this.customFileReader.setFile("data/employee_forenames.txt");
+        List<String> forenames = customFileReader.readFileEmployeeForenames();
+
+        this.customFileReader.setFile("data/employee_surnames.txt");
+        List<String> surnames = customFileReader.readFileEmployeeSurnames();
+
+        int countAddedLines = 0;
+        String sql = "Insert INTO mitarbeiter (ma_vorname, ma_nachname) VALUES (?, ?)";
+
+        try(Connection con = DriverManager.getConnection(
+                DB_CONNECTOR.getDatabase(), DB_CONNECTOR.getUsername(), DB_CONNECTOR.getPassword());
+            PreparedStatement stmt = con.prepareStatement(sql)
+        ) {
+            Random randomIndex = new Random();
+
+            for(int i = 0; i < 3000; ++i) {
+                stmt.setString(1, forenames.get(randomIndex.nextInt(forenames.size())));
+                stmt.setString(2, surnames.get(randomIndex.nextInt(surnames.size())));
+
+                stmt.executeUpdate();
+                ++countAddedLines;
+            }
+        }
+        catch(Exception exception) {
+            System.err.println("Error while inserting Employees: " + exception.getMessage());
+        }
+
+        return countAddedLines;
+    }
+
 
     public int testConnection() {
         String sql = "SELECT COUNT(*) FROM buch";

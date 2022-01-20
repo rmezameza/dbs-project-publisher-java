@@ -2,6 +2,7 @@
   <library name="ojdbc8">
     <CLASSES>
       <root url="jar://C:/Program Files/Java JDBC/ojdbc8.jar!/" />
+      <root url="jar:///etc/java/JDBC/ojdbc8.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

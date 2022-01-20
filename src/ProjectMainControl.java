@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ProjectMainControl {
     public static void main(String[] args) {
-        DatabaseInserter databaseFiller = new DatabaseInserter();
+        DatabaseInserter databaseInserter = new DatabaseInserter();
 
         Scanner userChoice = new Scanner(System.in);
         boolean continueProgram = true;
@@ -23,9 +23,7 @@ public class ProjectMainControl {
 
             switch (userChoiceNumber) {
                 case 1:
-                    System.out.println("Noch nicht fertig");
-                    System.out.print("Test: Buch - Einträge: ");
-                    System.out.print(databaseFiller.testConnection());
+                    System.out.println("Es wurden " + databaseInserter.insertEmployees() + " eingefügt");
                     break;
                 case 4:
                     System.out.println("Vielen Dank für die Benutzung des Dateimanagers.");
