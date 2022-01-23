@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class ProjectMainControl {
     public static void main(String[] args) {
         DatabaseInserter databaseInserter = new DatabaseInserter();
+        TableChecker tableChecker = new TableChecker();
 
         Scanner userChoice = new Scanner(System.in);
         boolean continueProgram = true;
@@ -22,17 +23,32 @@ public class ProjectMainControl {
             int userChoiceNumber = userChoice.nextInt();
 
             switch (userChoiceNumber) {
-                case 1:
-                    System.out.println("Es wurden " + databaseInserter.insertEmployees() + " eingefügt");
-                    break;
-                case 4:
+                case 1 -> {
+                    // First insert n (number defined by user) employees
+                    // System.out.println("Anzahl der Mitarbeiter:innen:");
+                    // userChoiceNumber = userChoice.nextInt();
+                    // databaseInserter.insertEmployees(userChoiceNumber);
+                    //int totalEmployees = tableChecker.checkNumberOfInserts("mitarbeiter");
+                    //System.out.println("Es wurden " + totalEmployees + " eingefügt");
+
+                    // Second insert internal and external employees
+                    //int numberOfPermanentEmployees = (totalEmployees / 2) - 250;
+                    //databaseInserter.insertInternalEmployees(numberOfPermanentEmployees);
+                    //System.out.println("Es wurden (Gesamt Mitarbeiter:innen / 2) - 250) fix Angestellte hinzugefügt: " + tableChecker.checkNumberOfInserts("intern"));
+                    //System.out.println("Es wurden (Gesamt Mitarbeiter:innen - fix Angestellte) freie Dienstnehmer:innen hinzugefügt: " + tableChecker.checkNumberOfInserts("extern"));
+
+                    // Insert books
+
+
+                    // Insert authors
+                    databaseInserter.insertAuthors();
+                }
+                case 4 -> {
                     System.out.println("Vielen Dank für die Benutzung des Dateimanagers.");
                     System.out.println("Bis zum nächsten Mal");
                     continueProgram = false;
-                    break;
-                default:
-                    System.out.println("Sie haben eine falsche Nummer ausgewählt. Bitte nur von 1 bis 4 eingeben.\n\n");
-                    break;
+                }
+                default -> System.out.println("Sie haben eine falsche Nummer ausgewählt. Bitte nur von 1 bis 4 eingeben.\n\n");
             }
         }
     }

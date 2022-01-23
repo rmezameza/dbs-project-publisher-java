@@ -5,15 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1acfbab9-2506-4ef3-91f5-dcc226dabcec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data/employee_forenames.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/employee_surnames.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CustomFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/ojdbc8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/opencsv_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/authors.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/years.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TableChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbs-project-publisher-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dbs-project-publisher-java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dbs-project-publisher-java/CustomFileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dbs-project-publisher-java/CustomFileReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/dbs-project-publisher-java/DatabaseInserter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dbs-project-publisher-java/DatabaseInserter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dbs-project-publisher-java/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dbs-project-publisher-java/Employee.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/dbs-project-publisher-java/ProjectMainControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dbs-project-publisher-java/ProjectMainControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomFileReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DatabaseInserter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DatabaseInserter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProjectMainControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectMainControl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,9 +42,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/DatabaseInserter.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/ProjectMainControl.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/DatabaseConnector.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/DatabaseInserter.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,15 +63,24 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="oracle" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="/etc/java/JDBC/ojdbc8.jar" />
+    <property name="last_opened_file_path" value="C:/Program Files/Java/other_libraries/commons-lang3-3.12.0.jar" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="profiler.jvm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Roberto\Git\GitHub\dbs-project-publisher-java\data" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="ProjectMainControl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -90,6 +106,9 @@
       <updated>1642499949493</updated>
       <workItem from="1642499952328" duration="5544000" />
       <workItem from="1642614646810" duration="3911000" />
+      <workItem from="1642784854107" duration="12087000" />
+      <workItem from="1642805315787" duration="11670000" />
+      <workItem from="1642848645105" duration="22078000" />
     </task>
     <servers />
   </component>
@@ -109,5 +128,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
