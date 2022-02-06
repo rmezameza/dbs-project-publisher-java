@@ -31,21 +31,80 @@ public class CustomFileReader {
     public List<Author> readFileCSVAuthors(String file) {
         List<Author> authors = new ArrayList<>();
         List<String[]> lineValues = new ArrayList<>();
-        int count = 0;
+
         try(CSVReader csvReader = new CSVReader(new FileReader("data/" + file))) {
             lineValues = csvReader.readAll();
         }
         catch(IOException | CsvValidationException exception) {
             System.err.println("Error while reading from csv for authors: " + exception.getMessage());
-        } catch (CsvException e) {
+        }
+        catch (CsvException e) {
             e.printStackTrace();
         }
 
         for(String[] line : lineValues) {
-            System.out.println(line[0] + " " + line[1] + " " + line[2]);
+            authors.add(new Author(line[0], line[1], line[2]));
         }
 
         return authors;
+    }
+
+    public List<Book> readFileCSVBooks(String file) {
+        List<Book> books = new ArrayList<>();
+        List<String[]> lineValues = new ArrayList<>();
+
+        try(CSVReader csvReader = new CSVReader(new FileReader("data/" + file))) {
+            lineValues = csvReader.readAll();
+        }
+        catch(IOException | CsvValidationException exception) {
+            System.err.println("Error while reading from csv for books: " + exception.getMessage());
+        }
+        catch(CsvException e) {
+            e.printStackTrace();
+        }
+
+        for(String[] line : lineValues) {
+            books.add(new Book(line[0], line[1], line[2], Integer.parseInt(line[3]), line[4], Integer.parseInt(line[5]), Double.parseDouble(line[6]), line[7], Integer.parseInt(line[8])));
+        }
+
+        return books;
+    }
+
+    public List<String[]> readFilesCSV(String file) {
+        List<String[]> lineValues = new ArrayList<>();
+
+        try(CSVReader csvReader = new CSVReader(new FileReader("data/" + file))) {
+            lineValues = csvReader.readAll();
+        }
+        catch(IOException | CsvValidationException exception) {
+            System.err.println("Error while reading from csv: " + exception.getMessage());
+        }
+        catch(CsvException e) {
+            e.printStackTrace();
+        }
+
+        return lineValues;
+    }
+
+    public List<BookStore> readFileCSVBookStores(String file) {
+        List<BookStore> bookStores = new ArrayList<>();
+        List<String[]> lineValues = new ArrayList<>();
+
+        try(CSVReader csvReader = new CSVReader(new FileReader("data/" + file))) {
+            lineValues = csvReader.readAll();
+        }
+        catch(IOException | CsvValidationException exception) {
+            System.err.println("Error while reading from csv for books to authors: " + exception.getMessage());
+        }
+        catch(CsvException e) {
+            e.printStackTrace();
+        }
+
+        for(String[] lineValue : lineValues) {
+            bookStores.add(new BookStore(lineValue[0], lineValue[1], lineValue[2], lineValue[3]));
+        }
+
+        return bookStores;
     }
 
     /*

@@ -5,22 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1acfbab9-2506-4ef3-91f5-dcc226dabcec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/opencsv_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/authors.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/years.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TableChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang3_3_12_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/opencsv_5_5_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/book_reviewer.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/bookauthor.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/books.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/bookstores.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/recensions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/reviewer_review .csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BookStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Rack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fa26f132-080a-435a-ac33-f58e8dbcfd09.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fa26f132-080a-435a-ac33-f58e8dbcfd09.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fa26f132-080a-435a-ac33-f58e8dbcfd09/storage_v2/_src_/schema/A11848674.uIwRCg.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fa26f132-080a-435a-ac33-f58e8dbcfd09/storage_v2/_src_/schema/A11848674.uIwRCg.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dbs-project-publisher-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dbs-project-publisher-java.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/dbs-project-publisher-java/CustomFileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dbs-project-publisher-java/CustomFileReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dbs-project-publisher-java/DataManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dbs-project-publisher-java/DataManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/dbs-project-publisher-java/DatabaseInserter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dbs-project-publisher-java/DatabaseInserter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dbs-project-publisher-java/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dbs-project-publisher-java/Employee.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/dbs-project-publisher-java/ProjectMainControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dbs-project-publisher-java/ProjectMainControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dbs-project-publisher-java/author_list.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CustomFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DatabaseInserter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DatabaseInserter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProjectMainControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProjectMainControl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,10 +48,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/DatabaseInserter.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/ProjectMainControl.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/DatabaseConnector.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/DatabaseInserter.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -71,14 +86,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files/Java/other_libraries/commons-lang3-3.12.0.jar" />
+    <property name="last_opened_file_path" value="/etc/java/other_libraries/commons-lang3-3.12.0.jar" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.2678161" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
       <recent name="D:\Roberto\Git\GitHub\dbs-project-publisher-java\data" />
     </key>
   </component>
@@ -109,6 +125,12 @@
       <workItem from="1642784854107" duration="12087000" />
       <workItem from="1642805315787" duration="11670000" />
       <workItem from="1642848645105" duration="22078000" />
+      <workItem from="1642935283555" duration="9344000" />
+      <workItem from="1642975298213" duration="7026000" />
+      <workItem from="1643017092850" duration="6002000" />
+      <workItem from="1643058116817" duration="8827000" />
+      <workItem from="1643136739496" duration="599000" />
+      <workItem from="1643217464011" duration="8954000" />
     </task>
     <servers />
   </component>
